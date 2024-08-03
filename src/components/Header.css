@@ -1,0 +1,20 @@
+.fixed-header {
+  animation: fixedHeader 200ms forwards;
+  position: fixed;
+  top: 0;
+}
+
+@keyframes fixedHeader {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 640px) {
+  .photo-span {
+    display: none;
+  }
+}
