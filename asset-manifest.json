@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tornike-giguashvili/static/css/main.950dd231.css",
-    "main.js": "/tornike-giguashvili/static/js/main.fafb944b.js",
+    "main.css": "/tornike-giguashvili/static/css/main.28b3e968.css",
+    "main.js": "/tornike-giguashvili/static/js/main.b7ae08a9.js",
     "static/js/453.fa6b6ec8.chunk.js": "/tornike-giguashvili/static/js/453.fa6b6ec8.chunk.js",
     "static/media/portrait (4).jpg": "/tornike-giguashvili/static/media/portrait (4).0a7bbb168fb532518922.jpg",
     "static/media/family (3).jpg": "/tornike-giguashvili/static/media/family (3).0a69a37fc00e0d211a02.jpg",
@@ -30,12 +30,12 @@
     "static/media/wedding (1).jpeg": "/tornike-giguashvili/static/media/wedding (1).2f5ddd1fae6be901e075.jpeg",
     "static/media/wedding (3).jpeg": "/tornike-giguashvili/static/media/wedding (3).4ccccf5407e2986d32aa.jpeg",
     "index.html": "/tornike-giguashvili/index.html",
-    "main.950dd231.css.map": "/tornike-giguashvili/static/css/main.950dd231.css.map",
-    "main.fafb944b.js.map": "/tornike-giguashvili/static/js/main.fafb944b.js.map",
+    "main.28b3e968.css.map": "/tornike-giguashvili/static/css/main.28b3e968.css.map",
+    "main.b7ae08a9.js.map": "/tornike-giguashvili/static/js/main.b7ae08a9.js.map",
     "453.fa6b6ec8.chunk.js.map": "/tornike-giguashvili/static/js/453.fa6b6ec8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.950dd231.css",
-    "static/js/main.fafb944b.js"
+    "static/css/main.28b3e968.css",
+    "static/js/main.b7ae08a9.js"
   ]
 }
