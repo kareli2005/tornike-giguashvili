@@ -1,84 +1,12 @@
-
-.loading-spinner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-  padding: 10px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1; /* Ensure spinner is on top */
-  width: 100%;
-  height: 100%;
+.enter-image {
+  animation: enterImage 1s forwards;
 }
 
-.images-container {
-  width: 100%;
-  height: auto;
-  gap: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-}
-
-.image-div {
-  display: flex;
-  height: 232px;
-  justify-content: center;
-  align-items: center;
-  transition: 300ms;
-}
-
-.image-hover-div {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: 300ms;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-.image-hover-div:hover {
-  opacity: 1;
-}
-
-.enter-animation {
-  opacity: 1;
-}
-
-@keyframes enterAnimation {
-  0% {
-    opacity: 0;
-    transform: scale(0);
-  }
-  30% {
-    opacity: 0;
+@keyframes enterImage {
+  0% { 
     transform: scale(0);
   }
   100% {
-    opacity: 100;
     transform: scale(1);
-  }
-}
-
-@media (max-width: 360px) {
-  .images-container {
-    justify-content: center;
-  }
-}
-
-@media (min-width: 768px) {
-  .enter-animation {
-    opacity: 1;
-    animation: enterAnimation 300ms forwards;
   }
 }
