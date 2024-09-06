@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/tornike-giguashvili/static/css/main.3b7cd8fb.css",
-    "main.js": "/tornike-giguashvili/static/js/main.20125b1e.js",
-    "static/js/453.fa6b6ec8.chunk.js": "/tornike-giguashvili/static/js/453.fa6b6ec8.chunk.js",
+    "main.css": "/tornike-giguashvili/static/css/main.e8cfaeae.css",
+    "main.js": "/tornike-giguashvili/static/js/main.063b4cba.js",
+    "static/js/453.ea394c17.chunk.js": "/tornike-giguashvili/static/js/453.ea394c17.chunk.js",
     "static/media/portrait (4).jpg": "/tornike-giguashvili/static/media/portrait (4).0a7bbb168fb532518922.jpg",
     "static/media/family (6).webp": "/tornike-giguashvili/static/media/family (6).0a69a37fc00e0d211a02.webp",
     "static/media/portrait (1).jpg": "/tornike-giguashvili/static/media/portrait (1).bd047f1cb6a167b7a5ba.jpg",
-    "static/media/slider (2).webp": "/tornike-giguashvili/static/media/slider (2).adbd540fb2ab60d57917.webp",
     "static/media/wedding (1).webp": "/tornike-giguashvili/static/media/wedding (1).302f1a7d1656099f9b2c.webp",
     "static/media/portrait (2).jpg": "/tornike-giguashvili/static/media/portrait (2).fd66903c60d839378229.jpg",
     "static/media/wedding (2).jpg": "/tornike-giguashvili/static/media/wedding (2).b52f1b6e3f5cc50e8650.jpg",
@@ -31,12 +30,12 @@
     "static/media/wedding (1).jpeg": "/tornike-giguashvili/static/media/wedding (1).2f5ddd1fae6be901e075.jpeg",
     "static/media/wedding (3).jpeg": "/tornike-giguashvili/static/media/wedding (3).4ccccf5407e2986d32aa.jpeg",
     "index.html": "/tornike-giguashvili/index.html",
-    "main.3b7cd8fb.css.map": "/tornike-giguashvili/static/css/main.3b7cd8fb.css.map",
-    "main.20125b1e.js.map": "/tornike-giguashvili/static/js/main.20125b1e.js.map",
-    "453.fa6b6ec8.chunk.js.map": "/tornike-giguashvili/static/js/453.fa6b6ec8.chunk.js.map"
+    "main.e8cfaeae.css.map": "/tornike-giguashvili/static/css/main.e8cfaeae.css.map",
+    "main.063b4cba.js.map": "/tornike-giguashvili/static/js/main.063b4cba.js.map",
+    "453.ea394c17.chunk.js.map": "/tornike-giguashvili/static/js/453.ea394c17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b7cd8fb.css",
-    "static/js/main.20125b1e.js"
+    "static/css/main.e8cfaeae.css",
+    "static/js/main.063b4cba.js"
   ]
 }
