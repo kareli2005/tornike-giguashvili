@@ -17,7 +17,7 @@ const Gallery = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      imageRefs.current.forEach((ref, index) => {
+      imageRefs.current.forEach((ref) => {
         if (ref) {
           const rect = ref.getBoundingClientRect()
           const isVisible = rect.top < window.innerHeight
@@ -100,7 +100,7 @@ const Gallery = () => {
           </button>
         </div>
 
-        <div className='images-container text-xs md:text-sm lg:text-base'>
+        <div className='images-container text-xs md:text-sm lg:text-base select-none'>
           {filteredImages.length === 0 ? (
             <div className='w-full col-span-full flex justify-center items-center py-10 md:py-20 lg:py-30 xl:py-40 uppercase text-xs md:text-xl duration-300'>
               No Images To Show

@@ -30,7 +30,7 @@ const Slider = () => {
     <div 
       onMouseEnter={() => setShowArrows(true)}
       onMouseLeave={() => setShowArrows(false)}
-      className='w-full max-h-[500px] lg:max-h-[80vh] duration-300 aspect-video bg-black relative flex justify-center items-center'>
+      className='w-full h-auto max-h-[500px] duration-300 aspect-video bg-black relative flex justify-center items-center select-none'>
 
       {/* navigation */}
       <div className={`${showArrows ? 'opacity-100' : 'opacity-0'} h-10 w-10 bg-white absolute top-[calc(50%-20px)] left-4 md:left-8 lg:left-16 rounded-full z-[100] duration-300 text-slate-400 hover:text-[#5e5e5e] cursor-pointer text-3xl`}>
@@ -41,15 +41,19 @@ const Slider = () => {
       </div>
 
       {/* slider */}
-      <div className='w-full h-full flex justify-center items-center relative overflow-hidden'>
-        {
-          sliderData.map((item, key) =>  (
-              <div key={key} className={`${currentSlide === key ? (firstRender ? 'landing-slide' : (forwardSwipe ? 'enter-slide' : 'reverse-enter-slide')) : (prevSlide === key ? (forwardSwipe ? 'leave-slide' : 'reverse-leave-slide') : 'opacity-0')} h-full w-full absolute`}>
-                <img className='h-full w-full object-cover' src={item.path} alt={item.name} />
-              </div>
+      <div className='w-full h-full flex justify-center items-center'>
+        <div className='w-0 lg:w-1/5 xl:w-1/3 h-full bg-black duration-300' />
+        <div className='w-full aspect-video flex justify-center items-center relative overflow-hidden'>
+          {
+            sliderData.map((item, key) =>  (
+                <div key={key} className={`${currentSlide === key ? (firstRender ? 'landing-slide' : (forwardSwipe ? 'enter-slide' : 'reverse-enter-slide')) : (prevSlide === key ? (forwardSwipe ? 'leave-slide' : 'reverse-leave-slide') : 'opacity-0')} h-full w-full absolute`}>
+                  <img className='w-full aspect-video object-cover' src={item.path} alt={item.name} />
+                </div>
+              )
             )
-          )
-        }
+          }
+        </div>
+        <div className='w-0 lg:w-1/5 xl:w-1/3 h-full bg-black duration-300' />
       </div>
     </div>
   )
