@@ -1,0 +1,12 @@
+.enter-image {
+  animation: enterImage 1s forwards;
+}
+
+@keyframes enterImage {
+  0% { 
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
