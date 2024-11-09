@@ -90,7 +90,6 @@ const Gallery = () => {
                  :
               filteredImages.map((item, index) => (
                 <div key={index} className='gallery-image h-[150px] md:h-[200px] w-auto overflow-hidden rounded-md relative duration-300'>
-                  {console.log(item)}
                   {loadingImages ? 
                     <LoadingImage /> 
                       : 
