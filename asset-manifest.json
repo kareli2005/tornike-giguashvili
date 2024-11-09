@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tornike-giguashvili/static/css/main.e8cfaeae.css",
-    "main.js": "/tornike-giguashvili/static/js/main.da073591.js",
+    "main.js": "/tornike-giguashvili/static/js/main.f384437c.js",
     "static/js/453.3e7e8a99.chunk.js": "/tornike-giguashvili/static/js/453.3e7e8a99.chunk.js",
     "static/media/_TOK0104.jpg": "/tornike-giguashvili/static/media/_TOK0104.13f7cbff221f2ffc79f3.jpg",
     "static/media/TOK_0091 (1).jpg": "/tornike-giguashvili/static/media/TOK_0091 (1).5a71ccd875e22c79a7d8.jpg",
@@ -55,11 +55,11 @@
     "static/media/_TOK5153.jpg": "/tornike-giguashvili/static/media/_TOK5153.54485f8502996506059a.jpg",
     "index.html": "/tornike-giguashvili/index.html",
     "main.e8cfaeae.css.map": "/tornike-giguashvili/static/css/main.e8cfaeae.css.map",
-    "main.da073591.js.map": "/tornike-giguashvili/static/js/main.da073591.js.map",
+    "main.f384437c.js.map": "/tornike-giguashvili/static/js/main.f384437c.js.map",
     "453.3e7e8a99.chunk.js.map": "/tornike-giguashvili/static/js/453.3e7e8a99.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8cfaeae.css",
-    "static/js/main.da073591.js"
+    "static/js/main.f384437c.js"
   ]
 }
